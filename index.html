@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nev">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div class="menu">
+            <ul id="menubar">
+              <li class="nev-iteam"><a href="#">Home</a></li>
+              <li class="nev-iteam"><a href="#">About</a></li>
+              <li class="nev-iteam"><a href="#">Services</a></li>
+              <li class="nev-iteam"><a href="#">Portfolio</a></li>
+              <li class="nev-iteam"><a href="#">Vlog</a></li>
+              <li class="nev-iteam"><a href="#">Work</a></li>
+              <li class="nev-iteam"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <button
+            onclick="menu()"
+            id="hamberger"
+            class="toggleBtn"
+            type="button"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </button>
+        </div>
+        <div class="head">
+          <h3>Creative Template</h3>
+          <h1>WELCOME<br />TO MOGO</h1>
+          <hr />
+          <button class="learn-more">Learn more</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="about">
+            <div class="about_text">
+              <h3 class="all-h3">What we do</h3>
+              <h2 class="all-h2">STORY ABOUT US</h2>
+              <hr class="all-hr" />
+              <p class="all-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="about_content">
+              <div class="contentText">
+                <img src="./images/012.jpg" alt="" />
+                <div class="before-after">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+              <div class="contentText">
+                <img src="./images/022.jpg" alt="" />
+                <div class="before-after">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+              <div class="contentText">
+                <img src="./images/032.jpg" alt="" />
+                <div class="before-after">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section counter">
+        <div class="container">
+          <div class="number-text">
+            <h4>42</h4>
+            <p>WEB DESIGN PROJECTS</p>
+          </div>
+          <div class="number-text">
+            <h4>64</h4>
+            <p>HAPPY CLIENT</p>
+          </div>
+          <div class="number-text">
+            <h4>98</h4>
+            <p>AWARD WINNER</p>
+          </div>
+          <div class="number-text">
+            <h4>59</h4>
+            <p>CUP OF COFFEE</p>
+          </div>
+          <div class="number-text">
+            <h4>97</h4>
+            <p>MEMBERS</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="services">
+            <h3 class="all-h3">We work with</h3>
+            <h2 class="all-h2">AMAZING SERVICES</h2>
+            <hr class="all-hr" />
+            <div class="all-services border">
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="text">
+                  <p>PHOTOGRAPHY</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="text">
+                  <p>WEB DESIGN</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-solid fa-computer"></i>
+                </div>
+                <div class="text">
+                  <p>CREATIVITY</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="all-services">
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-solid fa-computer-mouse"></i>
+                </div>
+                <div class="text">
+                  <p>SEO</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-solid fa-server"></i>
+                </div>
+                <div class="text">
+                  <p>PHOTOGRAPHY</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+              <div class="services-item">
+                <div class="icon">
+                  <i class="fa-solid fa-helicopter-symbol"></i>
+                </div>
+                <div class="text">
+                  <p>DIGITAL</p>
+                  <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section design">
+        <div class="container">
+          <div class="design-text">
+            <h3 class="all-h3">We work with</h3>
+            <h2 class="all-h2">AMAZING SERVICES</h2>
+            <hr class="all-hr" />
+          </div>
+          <div class="design-img">
+            <img class="first-img" src="images/tab-design.jpg" alt="#" />
+            <img class="second-img" src="images/mobile-design.png" alt="#" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section what-we-do">
+        <div class="container">
+          <div class="what-we-do-text">
+            <h3 class="all-h3">Service</h3>
+            <h2 class="all-h2">WHAT WE DO</h2>
+            <hr class="all-hr" />
+            <p class="all-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="pic-content">
+              <div class="pic">
+                <img src="images/service-01.jpg" alt="#" />
+              </div>
+              <div class="content">
+                <div class="icon-text">
+                  <i class="far fa-image"></i>
+                  <p>PHOTOGRAPHY</p>
+                </div>
+                <div class="para-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-helicopter-symbol"></i>
+                  <p>WEB DESIGN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section testimonial">
+        <div class="container">
+          <div class="testimonial-icon-text">
+            <div class="testimonial-icon">
+              <i class="fa-solid fa-helicopter-symbol"></i>
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+              <div class="devider-text">
+                <hr />
+                <p>Minhaz Ahmed Rafi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section team">
+        <div class="container">
+          <div class="team-head">
+            <h3 class="all-h3">Who we are</h3>
+            <h2 class="all-h2">MEET OUR TEAM</h2>
+            <hr class="all-hr" />
+            <p class="all-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="team-member">
+            <div class="team-pic">
+              <div class="pic-hover">
+                <img src="images/about-us-01.jpg" alt="" />
+                <div class="hover-text">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+              <p>SAIFUR RAHMAN NIROB</p>
+              <p class="para">Developer</p>
+            </div>
+            <div class="team-pic">
+              <div class="pic-hover">
+                <img src="images/about-us-02.jpg" alt="" />
+                <div class="hover-text">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+              <p>Minhaz Ahmed Rafi</p>
+              <p class="para">Programmer</p>
+            </div>
+            <div class="team-pic">
+              <div class="pic-hover">
+                <img src="images/about-us-03.jpg" alt="" />
+                <div class="hover-text">
+                  <i class="fa-solid fa-person"></i>
+                  <h4>Super Team</h4>
+                </div>
+              </div>
+              <p>Jinius Ahmed Munni</p>
+              <p class="para">Coder</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section logo-sec">
+        <div class="container">
+          <img src="images/brand-logos.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section work">
+        <div class="container">
+          <h3 class="all-h3">What we do</h3>
+          <h2 class="all-h2">SOME OF OUR WORK</h2>
+          <hr class="all-hr" />
+          <p class="all-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="all-pic">
+          <div class="first-column">
+            <div class="first-two-pic">
+              <div class="hoverEf">
+                <img src="images/01.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-computer"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+              <div class="hoverEf">
+                <img src="images/04.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-database"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="first-two-pic">
+              <div class="hoverEf">
+                <img src="images/02.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-laptop-code"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+              <div class="hoverEf">
+                <img src="images/03.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-masks-theater"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="second-column">
+            <div class="first-two-pic">
+              <div class="hoverEf">
+                <img src="images/w4.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-window-restore"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+            <div class="first-two-pic">
+              <div class="hoverEf">
+                <img src="images/03.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-shop-lock"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+              <div class="hoverEf">
+                <img src="images/06.jpg" alt="" />
+                <div class="hov-text">
+                  <i class="fa-solid fa-plane"></i>
+                  <p class="p-one">Lorem ipsum dolor sit amet</p>
+                  <p class="p-two">Nostrud exercitation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonial">
+        <div class="container">
+          <div class="testimonial-icon-text">
+            <div class="testimonial-icon">
+              <img src="images/slider-speech.png" alt="" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation.
+              </p>
+              <div class="devider-text">
+                <hr />
+                <p>Sabiha Farjana</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section people-say">
+        <div class="container">
+          <h3 class="all-h3">Who we are</h3>
+          <h2 class="all-h2">MEET OUR TEAM</h2>
+          <hr class="all-hr" />
+          <p class="all-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="people-div one-div">
+            <div class="pic-text">
+              <div class="pic">
+                <img src="images/client-01.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-h">MATTHEW DIX</p>
+                <p class="text-p">Graphic Design</p>
+                <hr class="allHr" />
+                <p class="text-para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+              </div>
+            </div>
+            <div class="pic-text">
+              <div class="pic">
+                <img src="images/client-02.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-h">NICK KARVOUNIS</p>
+                <p class="text-p">Graphic Design</p>
+                <hr class="allHr" />
+                <p class="text-para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="people-div">
+            <div class="pic-text">
+              <div class="pic">
+                <img src="images/client-03.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-h">JAELYNN CASTILLO</p>
+                <p class="text-p">Graphic Design</p>
+                <hr class="allHr" />
+                <p class="text-para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+              </div>
+            </div>
+            <div class="pic-text">
+              <div class="pic">
+                <img src="images/client-04.png" alt="" />
+              </div>
+              <div class="text">
+                <p class="text-h">MIKE PETRUCCI</p>
+                <p class="text-p">Graphic Design</p>
+                <hr class="allHr" />
+                <p class="text-para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section blog">
+        <div class="container">
+          <h3 class="all-h3">Our stories</h3>
+          <h2 class="all-h2">LATEST BLOG</h2>
+          <hr class="all-hr" />
+          <div class="blog-div">
+            <div class="blog-pic">
+              <img src="images/blog-01.jpg" alt="#" />
+              <div class="date">
+                <p class="dt">26</p>
+                <p>jan</p>
+              </div>
+              <p class="p-one">LOREM IPSUM DOLOR SIT AMET</p>
+              <p class="p-two">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+              </p>
+              <div class="number">
+                <div class="icon-text">
+                  <i class="fa-solid fa-plane"></i>
+                  <p>542</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-person"></i>
+                  <p>17</p>
+                </div>
+              </div>
+            </div>
+            <div class="blog-pic">
+              <img src="images/blog-02.jpg" alt="#" />
+              <div class="date">
+                <p class="dt">26</p>
+                <p>jan</p>
+              </div>
+              <p class="p-one">LOREM IPSUM DOLOR SIT AMET</p>
+              <p class="p-two">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+              </p>
+              <div class="number">
+                <div class="icon-text">
+                  <i class="fa-solid fa-helicopter-symbol"></i>
+                  <p>992</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-solid fa-computer-mouse"></i>
+                  <p>42</p>
+                </div>
+              </div>
+            </div>
+            <div class="blog-pic">
+              <img src="images/blog-03.jpg" alt="#" />
+              <div class="date">
+                <p class="dt">26</p>
+                <p>jan</p>
+              </div>
+              <p class="p-one">LOREM IPSUM DOLOR SIT AMET</p>
+              <p class="p-two">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+              </p>
+              <div class="number">
+                <div class="icon-text">
+                  <i class="fa-brands fa-instagram"></i>
+                  <p>1560</p>
+                </div>
+                <div class="icon-text">
+                  <i class="fa-brands fa-facebook"></i>
+                  <p>98</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section map">
+        <div class="container">
+          <div class="map-div">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>OPEN MAP</p>
+            <hr class="all-hr" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section contact">
+      <div class="container">
+        <div class="footer">
+          <div class="footer-one">
+            <img src="images/logo-2.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <p class="follower">15k followers</p>
+            <p class="follow">Follow Us:</p>
+            <div class="inputeBtn">
+              <input type="text" placeholder="Your Email...." />
+              <button>Subcribe</button>
+            </div>
+          </div>
+          <div class="footer-two">
+            <p class="blg-p">BLOGS</p>
+            <div class="Footer-img">
+              <div class="pic">
+                <img src="images/blog-1.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="pOne">
+                  LOREM IPSUM DOLOR SIT AMET,CONSECTETUR ADIPISCING
+                </p>
+                <p class="pTwo">Jan 04, 2021</p>
+              </div>
+            </div>
+            <div class="Footer-img">
+              <div class="pic">
+                <img src="images/blog-2.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="pOne">
+                  LOREM IPSUM DOLOR SIT AMET,CONSECTETUR ADIPISCING
+                </p>
+                <p class="pTwo">Jan 04, 2021</p>
+              </div>
+            </div>
+            <div class="Footer-img">
+              <div class="pic">
+                <img src="images/blog-3.jpg" alt="" />
+              </div>
+              <div class="text">
+                <p class="pOne">
+                  LOREM IPSUM DOLOR SIT AMET,CONSECTETUR ADIPISCING
+                </p>
+                <p class="pTwo">Jan 04, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="end-p">© 2023 MoGo free PSD template by Farjana Sabiha</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
